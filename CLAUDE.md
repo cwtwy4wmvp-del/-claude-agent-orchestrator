@@ -7,4 +7,7 @@
 
 ## Layout
 
-- `.claude/commands/` — project slash commands. `task.md` defines `/task`, the basic agent execution routine.
+- `/home/user` - Root workspace
+- `.claude/commands/task.md` - Core /task orchestration engine
+- `.claude/commands/review.md` - Dedicated /review workflow
+- `.claude/agents/code-reviewer.md` - Specialized security & regression reviewer persona
